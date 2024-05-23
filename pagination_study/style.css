@@ -1,16 +1,42 @@
-body {
+body main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  background-color: #e1e1e1;
+  padding: 50px 20px;
 }
-body main {
-  width: 1200px;
-  height: auto;
-  padding: 50px 30px;
-  background-color: #ededed;
+body main .pgn {
+  background-color: #fff;
+  width: 320px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body main .list-block {
-  width: 100%;
+body main .pgn button {
+  border: none;
+  background-color: #f1f4fe;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+body main .pgn button:hover, body main .pgn button.active {
+  background-color: #3868eb;
+  color: #fff;
+}
+body main .pgn .prev {
+  position: absolute;
+  left: 20px;
+}
+body main .pgn .next {
+  position: absolute;
+  right: 20px;
+}
+body main .pgn .pages .page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5px;
 }/*# sourceMappingURL=style.css.map */
