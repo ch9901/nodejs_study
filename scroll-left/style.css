@@ -1,0 +1,7 @@
+.box {
+  width: 500px;
+  overflow-x: auto;
+}
+.box .text-block {
+  width: 1000px;
+}/*# sourceMappingURL=style.css.map */
